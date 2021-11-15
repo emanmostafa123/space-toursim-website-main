@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space</title> 
+    <link rel="icon" type="image/gif/png" href="./assets/favicon-32x32.png">
+    <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="./reset.css">
+    <!-- <script src="./js.js"></script> -->
+
+    
+</head>
+<body>
+    <div class="container">
+        <img src="./assets/shared/logo.svg" class="logo">
+
+        <div class="navcontainer">
+            <nav class="navmenu">
+                
+                    
+                    <a class="demo2 cursor" href="#" onclick="currentSlide(1)"> 01 home</a>
+                    
+                    
+                    <a class="demo2 cursor" href="#" onclick="currentSlide(2)"> 02 destination</a>
+                    
+                    
+                    <a class="demo2 cursor" href="#" onclick="currentSlide(3)"> 03 crew</a>
+                
+                    
+                    <a class="demo2 cursor" href="#" onclick="currentSlide(4)"> 04 technology</a> 
+                    
+                  
+            </nav>
+        </div>
+        <div class="myslider">
+            <div class="textcontainer">
+                <p class="textp1">So, you want to travel to</p>
+                <p class="textp2">Space</p>
+                <p class="textp3">Let’s face it; if you want to go to space, you might as well
+                    genuinely go to outer space and not hover kind of on the edge of it.
+                    Well sit back, and relax because we’ll give you a truly out of this world experience!</p>
+            </div>
+            <div class="btncontainer">
+                <button id="btn" type="button" class="demo2 cursor" href="#" onclick="currentSlide(2)">EXPLORE</button>
+            </div>
+        </div>
+
+        <div class="myslider" id="destinationcon">
+            
+            <p class="desp">01 pick your destination</p>
+            <div class="row">
+                
+                <a class="demo cursor" href="#" onclick="currentSlide1(1)"> moon</a>
+                
+                
+                <a class="demo cursor" href="#" onclick="currentSlide1(2)"> mars</a>
+                
+                
+                <a class="demo cursor" href="#" onclick="currentSlide1(3)"> europe</a>
+                
+                
+                <a class="demo cursor" href="#" onclick="currentSlide1(4)"> titan</a> 
+                
+            </div>
+            
+
+            <div id="myslides1" class="myslides1">
+                <img src="./assets/destination/image-moon.png" alt="moon" class="img1">
+                <p class="name">moon</p>
+                <p class="p1">See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed.
+                     While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites."</p>
+                
+                <p class="km">384,400 km</p>
+                <p class="time">3 days</p>
+            </div>
+
+            <div id="myslides1" class="myslides1">
+                <img src="./assets/destination/image-mars.png" alt="mars" class="img1">
+                <p class="name">mars</p>
+                <p class="p1">Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons,
+                     the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!"</p>
+                
+                <p class="km">225 mil. km</p>
+                <p class="time">9 months</p>
+            </div>
+
+            <div id="myslides1" class="myslides1">
+                <img src="./assets/destination/image-europa.png" alt="Europa" class="img1">
+                <p class="name">Europa</p>
+                <p class="p1">The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream.
+                     With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin."</p>
+                
+                <p class="km">628 mil. km</p>
+                <p class="time">3 years</p>
+            </div>
+
+
+            <div id="myslides1" class="myslides1">
+                <img src="./assets/destination/image-titan.png" alt="Titan" class="img1">
+                <p class="name">titan</p>
+                <p class="p1">The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!).
+                     As a bonus, you get striking views of the Rings of Saturn."</p>
+                
+                <p class="km">1.6 bil. km</p>
+                <p class="time">7 years</p>
+            </div>
+
+            <p class="desdis">distance</p>
+            <p class="destra">travel</p>
+
+        </div>
+
+        <div class="myslider">
+
+            <p class="crewmeet">02 meet your crew</p>
+            <nav class="row2">
+                
+                <span class="dot" onclick="currentSlide3(1)"></span> 
+                <span class="dot" onclick="currentSlide3(2)"></span> 
+                <span class="dot" onclick="currentSlide3(3)"></span> 
+                <span class="dot" onclick="currentSlide3(4)"></span> 
+            </nav>
+
+            <div  class="myslides2">
+                <p class="work">Commander</p>
+                <p class="namec">Douglas Hurley</p>
+                <p class="p2">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut.
+                     He launched into space for the third time as commander of Crew Dragon Demo-2."</p>
+                <img src="./assets/crew/image-douglas-hurley.png" alt="douglas-hurley" class="img6">
+            </div>
+
+            <div  class="myslides2">
+                <p class="work">Mission Specialist</p>
+                <p class="namec">Mark Shuttleworth</p>
+                <p class="p3">Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system.
+                     Shuttleworth became the first South African to travel to space as a space tourist."</p>
+                <img src="./assets/crew/image-mark-shuttleworth.png" alt="Mark Shuttleworth" class="img7">
+            </div>
+
+            <div  class="myslides2">
+                <p class="work">Pilot</p>
+                <p class="namec">Victor Glover</p>
+                <p class="p4">Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S.
+                     Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer."</p>
+                <img src="./assets/crew/image-victor-glover.png" alt="victor-glover" class="img8">
+            </div>
+
+            <div  class="myslides2">
+                <p class="work">Flight Engineer</p>
+                <p class="namec">Anousheh Ansari</p>
+                <p class="p5">"Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. 
+                    Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space."</p>
+                <img src="./assets/crew/image-anousheh-ansari.png" alt="anousheh-ansari" class="img9">
+            </div>
+            
+        </div>
+
+        <div class="myslider">
+            <p class="p6">03 space launch 101</p>
+            <p class="p7">the technology</p>
+            
+            <div class="row3">
+                
+                <a class="demo3 cursor" href="#" onclick="currentSlide4(1)">1</a>
+                <br>
+                <br>
+            
+                <a class="demo3 cursor" href="#" onclick="currentSlide4(2)">2</a>
+                <br>
+                <br>
+                
+                <a class="demo3 cursor" href="#" onclick="currentSlide4(3)">3</a>
+            
+                
+            </div>
+
+
+            <div class="myslides3">
+                <p class="techname">Launch vehicle</p>
+                <p class="techp1">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!"</p>
+                <img src="./assets/technology/image-launch-vehicle-portrait.jpg" alt="launch-vehicle"  class="imgtech">
+            </div>
+
+            <div class="myslides3">
+                <p class="techname">Spaceport</p>
+                <p class="techp1">A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, 
+                    our spaceport is ideally situated to take advantage of the Earth’s rotation for launch."</p>
+                <img src="./assets/technology/image-spaceport-portrait.jpg" alt="spaceport"  class="imgtech">
+            </div>
+
+            <div class="myslides3">
+                <p class="techname">Space capsule</p>
+                <p class="techp1">A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained."</p>
+                <img src="./assets/technology/image-space-capsule-portrait.jpg" alt="space-capsule"  class="imgtech">
+            </div>
+        </div>
+    </div>
+
+    <script>
+                var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("myslider");
+          var dots = document.getElementsByClassName("demo2");
+          if (n > slides.length) {
+              slideIndex = 1
+            }
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+        }
+
+//////////////////////////////////////////////////
+
+
+        var slideIndex1 = 1;
+        showSlides1(slideIndex);
+
+        // Next/previous controls
+        function plusSlides1(n1) {
+          showSlides1(slideIndex1 += n1);
+        }
+
+        // Thumbnail image controls
+        function currentSlide1(n1) {
+          showSlides1(slideIndex1 = n1);
+        }
+
+        function showSlides1(n1) {
+          var i1;
+          var slides1 = document.getElementsByClassName("myslides1");
+          var dots1 = document.getElementsByClassName("demo");
+          if (n1 > slides1.length) {
+              slideIndex1 = 1
+            }
+          if (n1 < 1) {slideIndex1 = slides1.length}
+          for (i1 = 0; i1 < slides1.length; i1++) {
+            slides1[i1].style.display = "none";
+          }
+          for (i1 = 0; i1 < dots1.length; i1++) {
+            dots1[i1].className = dots1[i1].className.replace(" active", "");
+          }
+          slides1[slideIndex1-1].style.display = "block";
+          dots1[slideIndex1-1].className += " active";
+        }
+
+
+        ////////////////////////////////
+
+        
+        var slideIndex3 = 1;
+        showSlides3(slideIndex3);
+
+        // Next/previous controls
+        function plusSlides3(n3) {
+        showSlides3(slideIndex3 += n3);
+        }
+
+        // Thumbnail image controls
+        function currentSlide3(n3) {
+        showSlides3(slideIndex3 = n3);
+        }
+
+        function showSlides3(n3) {
+        var i3;
+        var slides3 = document.getElementsByClassName("myslides2");
+        var dots3 = document.getElementsByClassName("dot");
+        if (n3 > slides3.length) {slideIndex3 = 1}
+        if (n3 < 1) {slideIndex3 = slides3.length}
+        for (i3 = 0; i3 < slides3.length; i3++) {
+            slides3[i3].style.display = "none";
+        }
+        for (i3 = 0; i3 < dots3.length; i3++) {
+            dots3[i3].className = dots3[i3].className.replace(" active", "");
+        }
+        slides3[slideIndex3-1].style.display = "block";
+        dots3[slideIndex3-1].className += " active";
+        }
+
+
+    
+        ///////////////////////////////////////
+
+        var slideIndex1 = 1;
+        showSlides1(slideIndex);
+
+        // Next/previous controls
+        function plusSlides4(n4) {
+          showSlides4(slideIndex4 += n4);
+        }
+
+        // Thumbnail image controls
+        function currentSlide4(n4) {
+          showSlides4(slideIndex4 = n4);
+        }
+
+        function showSlides4(n4) {
+          var i4;
+          var slides4 = document.getElementsByClassName("myslides3");
+          var dots4 = document.getElementsByClassName("demo3");
+          if (n4 > slides4.length) {
+              slideIndex4 = 1
+            }
+          if (n4 < 1) {slideIndex4 = slides4.length}
+          for (i4 = 0; i4 < slides4.length; i4++) {
+            slides4[i4].style.display = "none";
+          }
+          for (i4 = 0; i4 < dots4.length; i4++) {
+            dots4[i4].className = dots4[i4].className.replace(" active", "");
+          }
+          slides4[slideIndex4-1].style.display = "block";
+          dots4[slideIndex4-1].className += " active";
+        }
+    </script>
+    
+</body>
+
+
+</html>
